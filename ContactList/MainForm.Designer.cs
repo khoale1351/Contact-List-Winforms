@@ -50,6 +50,7 @@
             this.btnAddContact.TabIndex = 1;
             this.btnAddContact.Text = "Thêm liên hệ";
             this.btnAddContact.UseVisualStyleBackColor = true;
+            this.btnAddContact.Click += new System.EventHandler(this.btnAddContact_Click);
             // 
             // MainForm
             // 
