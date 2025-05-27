@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.lblContactList = new System.Windows.Forms.Label();
-            this.btnAddContact = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblContactList
@@ -41,23 +40,11 @@
             this.lblContactList.TabIndex = 0;
             this.lblContactList.Text = "Danh sách liên hệ";
             // 
-            // btnAddContact
-            // 
-            this.btnAddContact.AutoSize = true;
-            this.btnAddContact.Location = new System.Drawing.Point(376, 122);
-            this.btnAddContact.Name = "btnAddContact";
-            this.btnAddContact.Size = new System.Drawing.Size(94, 26);
-            this.btnAddContact.TabIndex = 1;
-            this.btnAddContact.Text = "Thêm liên hệ";
-            this.btnAddContact.UseVisualStyleBackColor = true;
-            this.btnAddContact.Click += new System.EventHandler(this.btnAddContact_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnAddContact);
             this.Controls.Add(this.lblContactList);
             this.Name = "MainForm";
             this.Text = "MainForm";
@@ -69,7 +56,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblContactList;
-        private System.Windows.Forms.Button btnAddContact;
     }
 }
 
